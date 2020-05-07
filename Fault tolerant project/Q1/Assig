@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+19-Mar-2020 16:25:20
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+-------------------------------------
+Reachability
+-------------------------------------
+
+Reachable variables
+
+	theta1
+	dtheta1
+	w1
+	dw1
+	theta2
+	dtheta2
+	w2
+	dw2
+	theta3
+	dtheta3
+	w3
+	dw3
+	d
+
+Not reachable variables
+
+-------------------------------------
+Controlability
+-------------------------------------
+
+Controlable variables
+
+	theta1
+	dtheta1
+	w1
+	dw1
+	theta2
+	dtheta2
+	w2
+	dw2
+	theta3
+	dtheta3
+	w3
+	dw3
+	d
+
+Non-controlable variables
+
+-------------------------------------
+Matching 1
+-------------------------------------
+
+	-------------------------------------
+	Parity Relations
+	-------------------------------------
+
+		-------------------------------------
+		d10(c3(d9(m14(y2))),c4(m13(y1),m14(y2),c3(d9(m14(y2))),m15(y3)))
+		(0 == -(k2*(y2 - y3) - k1*(y1 - y2) + b2*D(y2))/J2) == D(D(y2))
+		-------------------------------------
+
+			c3
+			c4
+			d9
+			d10
+			m13
+			m14
+			m15
+
+	-------------------------------------
+	Detectability
+	-------------------------------------
+
+	Detectable subsystem
+
+		c3
+		c4
+		c5
+		c6
+		m13
+		m14
+		m15
+
+	Undetectable subsystem
+
+		c1
+		c2
+
+	Constraints that cannot fail
+
+		d7
+		d8
+		d9
+		d10
+		d11
+		d12
+
+	-------------------------------------
+	Isolability
+	-------------------------------------
+
+	Isolable subsystem
+
+	Non-isolable subsystem
+
+		c1
+		c2
+		c3
+		c4
+		c5
+		c6
+		m13
+		m14
+		m15
+
